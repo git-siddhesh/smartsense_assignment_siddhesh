@@ -1,0 +1,14 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import nltk
+import os
+import pickle
+from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('omw-1.4')
+nltk.download('wordnet')
+
+import sklearn
